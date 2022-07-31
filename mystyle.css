@@ -1,0 +1,54 @@
+body{
+    background-image:url('bg.png');
+    background-size:cover;
+    color:white;
+}
+
+#navbar{
+    display:flex;
+    direction:row;
+    padding-left:2rem;
+}
+
+.navbar_row{
+    padding:1.25rem;
+    border-bottom:0.25rem solid white;
+
+}
+#bottom-container{
+    display:flex;
+    direction:row;
+}
+#left-bottom-container{
+    margin-left:1rem;
+}
+.season{
+    /*margin-left:0.5;*/
+}
+#swords {
+    margin-left:2rem;
+}
+#divider{
+    border-left:5px solid white;
+    height:600px;
+    margin-top:10px;
+    margin-left:30px;
+}
+#throne{
+    margin-left:-125px;
+    margin-top:-75px;
+}
+#quote{
+    border:2px solid white;
+    color:yellow;
+}
+#middle_container{
+    direction:row;
+    display:flex;
+    
+}
+#quote{
+    height:200px;
+    width:400px;
+    
+}
